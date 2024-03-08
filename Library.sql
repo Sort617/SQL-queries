@@ -3,7 +3,7 @@ CREATE TABLE `Books` (
   `Title` varchar(255),
   `AuthorID` integer,
   `GenreID` integer,
-  `PublicationYear` year
+  `PublicationYear` smallint
 );
 
 CREATE TABLE `Authors` (
